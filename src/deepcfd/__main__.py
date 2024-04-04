@@ -135,7 +135,8 @@ def parseOpts(argv):
 
 def main():
     options = parseOpts(sys.argv[1:])
-
+    
+    # Load pickle data based on inputs 
     x = pickle.load(open(options["model_input"], "rb"))
     y = pickle.load(open(options["model_output"], "rb"))
 
