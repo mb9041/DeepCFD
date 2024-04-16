@@ -9,6 +9,8 @@ __pycache__/
 
 output/
 
+output-conditional/
+
 *.txt
 
 Results/
